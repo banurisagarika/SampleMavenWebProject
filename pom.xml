@@ -26,15 +26,16 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
-    <dependencies>
-    <!-- Servlet API dependency for web applications -->
+
     <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
         <version>4.0.1</version>
         <scope>provided</scope>
     </dependency>
+
+        <!-- Servlet API dependency for web applications -->
+    
 
     <!-- JUnit dependency for testing -->
     <dependency>
@@ -43,7 +44,7 @@
         <version>4.13.2</version>
         <scope>test</scope>
     </dependency>
-</dependencies>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 
    <dependency>
     <groupId>javax.servlet</groupId>
